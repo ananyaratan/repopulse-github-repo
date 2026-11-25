@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #02010a;
+  --foreground: #f1f5f9;
+  --card: #09090b;
+  --card-foreground: #f1f5f9;
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --muted: #18181b;
+  --muted-foreground: #a1a1aa;
+  --accent: #6366f1;
+  --accent-foreground: #ffffff;
+  --border: #27272a;
+  --folder-back: #312e81;
+  --folder-front: #4f46e5;
+  --folder-tab: #4338ca;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
